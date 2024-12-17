@@ -1,4 +1,4 @@
-CREATE DATABASE employee_management;
+CREATE DATABASE IF NOT EXISTS employee_management;
 
 
 USE employee_management;
@@ -14,6 +14,5 @@ CREATE TABLE employees (
   dateOfJoining DATE NOT NULL,
   role VARCHAR(50) NOT NULL
 );
-
 
 select * from employees;
